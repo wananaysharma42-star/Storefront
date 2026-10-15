@@ -82,7 +82,7 @@ export default function Checkout() {
         key: key,
         amount: amount,
         currency: currency,
-        name: "ShopKart",
+        name: "Storefront",
         description: "Complete your purchase",
         order_id: razorpayOrderId,
         handler: async function (paymentResponse) {

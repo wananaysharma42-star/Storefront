@@ -1,4 +1,4 @@
-# 🛒 ShopKart — Full-Stack E-Commerce App
+# 🛒 Storefront — Full-Stack E-Commerce App
 
 A full-stack e-commerce web application with a **React + Vite** frontend and a **Node.js / Express / MongoDB** backend, featuring JWT-based authentication, cart & wishlist management, and **Razorpay** payment integration.
 

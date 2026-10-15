@@ -50,7 +50,7 @@ export default function Cart() {
     <div className="min-h-screen bg-[#F7F8F4] text-[#0B0F0E]">
       <nav className="bg-white/80 backdrop-blur-md border-b border-[#E2E5DC] sticky top-0 z-50 px-8 py-4 flex justify-between items-center">
         <h1 onClick={() => navigate('/home')} className="text-xl font-extrabold tracking-tight text-[#0A3622] cursor-pointer">
-          ShopKart
+          Storefront
         </h1>
         <div className="flex items-center space-x-4">
           <button onClick={() => navigate('/products')} className="text-sm text-[#525B56] hover:text-[#0A3622] transition font-medium px-3 py-2">
