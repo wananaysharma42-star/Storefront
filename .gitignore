@@ -1,0 +1,77 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+**/node_modules/
+
+# ========================
+# Environment Variables
+# ========================
+# Never commit secrets — use .env.example as a reference
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+
+# ========================
+# Build Outputs
+# ========================
+dist/
+dist-ssr/
+build/
+out/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================
+# OS & Editor Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor: VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Editor: JetBrains (IntelliJ, WebStorm, etc.)
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# Vite / Frontend
+# ========================
+*.local
+.cache/
+
+# ========================
+# Lock Files (optional — keep these if collaborating)
+# ========================
+# Uncomment the lines below only if you do NOT want to commit lock files
+# package-lock.json
+# yarn.lock
+
+# ========================
+# Misc
+# ========================
+*.tgz
+*.zip
+*.tar.gz
+coverage/
+.nyc_output/
